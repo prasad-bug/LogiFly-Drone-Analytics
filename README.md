@@ -72,6 +72,3 @@ Opens at → http://localhost:8501
 - **Throughput Increase:** 1,800 → 4,500 items/day (2.5×)
 - **Verdict:** ✅ **YES — INVEST in Smart Logistics Drones**
 
----
-
-*Case Study 157 · LogiFly Warehouse Solutions Pvt. Ltd., Pune*
