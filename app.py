@@ -233,6 +233,20 @@ with st.sidebar:
     st.markdown(f"🚁 Drone Investment: **₹85 L**")
     st.markdown(f"📉 Cost Reduction: **35%**")
     st.markdown(f"📈 Complaints ↑: **20%** (pre-drone)")
+    st.markdown("---")
+    
+    # Excel Download Button
+    try:
+        with open("LogiFly_Business_Data.xlsx", "rb") as f:
+            st.download_button(
+                label="📥 Download Business Excel",
+                data=f,
+                file_name="LogiFly_Business_Data.xlsx",
+                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                use_container_width=True
+            )
+    except FileNotFoundError:
+        st.warning("Excel data file not found.")
 
 # ─────────────────────────────────────────────
 # PAGE: OVERVIEW
